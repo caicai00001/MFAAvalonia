@@ -902,7 +902,7 @@ public static class VersionChecker
         if (!string.IsNullOrWhiteSpace(Instances.VersionUpdateSettingsUserControlModel.GitHubToken))
         {
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
-                "Bearer", 
+                "Bearer ", 
                 Instances.VersionUpdateSettingsUserControlModel.GitHubToken);
         }
         
