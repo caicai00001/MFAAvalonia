@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - uses: MirrorChyan/uploading-action@v1
-        if: ${{ github.repository_owner == 'SweetSmellFox' }}
+        if: ${{ github.repository_owner == 'caicai00001' }}
         with:
           filetype: latest-release
           filename: ${{ matrix.os == 'win' && format('MFAAvalonia-*-{0}-{1}.zip', matrix.os, matrix.arch) || format('MFAAvalonia-*-{0}-{1}.tar.gz', matrix.os, matrix.arch) }}

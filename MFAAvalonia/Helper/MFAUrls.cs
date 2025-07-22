@@ -8,7 +8,7 @@ namespace MFAAvalonia.Helper;
 
 public class MFAUrls
 {
-    public const string GitHub = "https://github.com/SweetSmellFox/MFAAvalonia";
+    public const string GitHub = "https://github.com/caicai00001/MFAAvalonia";
 
     public const string GitHubIssues = $"{GitHub}/issues";
     
