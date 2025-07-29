@@ -267,7 +267,7 @@ namespace MFAAvalonia.Assets.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MFA 任务管理器.
+        ///   Looks up a localized string similar to 悠久之树小助手.
         /// </summary>
         public static string AppTitle {
             get {
