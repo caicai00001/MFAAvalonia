@@ -1080,7 +1080,7 @@ public static class VersionChecker
     public static void GetLatestVersionAndDownloadUrlFromGithub(out string url,
         out string latestVersion,
         out string sha256,
-        string owner = "SweetSmellFox",
+        string owner = "caicai00001",
         string repo = "MFAAvalonia",
         bool onlyCheck = false,
         string targetVersion = "",
